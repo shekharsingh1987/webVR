@@ -16,8 +16,10 @@
     function onVrViewLoad() {
         // Selector '#vrview' finds element with id 'vrview'.
         var vrView = new VRView.Player('#vrview', {
-            image: 'singaporeVR.jpeg',
-            is_stereo: true
+            image: 'https://storage.googleapis.com/vrview/2.0/index.html?preview=https://storage.googleapis.com/vrview/examples/coral-preview.jpg&image=https://storage.googleapis.com/vrview/examples/coral.jpg&is_stereo=true&',
+            is_stereo: true,
+            width: '100%',
+            height: '300'
         });
     }
 </script>
